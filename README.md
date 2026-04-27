@@ -1,3 +1,25 @@
-# Ensemble_Learning_Project-Loan_Approval
-DevSoc Core Project on comparison between Ensemble Learning Techniques - Bagging and Boosting.  
-This project predicts whether a person is likely to default on a loan, which is helpful to determine if the loan should be approved or not. It uses a large dataset of over 200k records. It has two ensemble models trained using identical parameters to ensure a fair comparison. The train_test_split method is used to evaluate and compare the accuracy of each model. Also, log loss progression graphs have been included to further compare the models.
+# Loan Risk Prediction using Ensemble Learning
+
+This project predicts the likelihood of loan default using ensemble learning techniques on a dataset of over 200k records.
+
+## Models Used
+- Random Forest (Bagging)
+- XGBoost (Boosting)
+
+## Approach
+- Selected relevant features and removed missing values  
+- Encoded categorical variables using one-hot encoding  
+- Trained both models with comparable configurations for fair analysis  
+- Evaluated performance using accuracy and log loss  
+
+## Results
+- Achieved ~86.5% accuracy  
+- Compared model performance using log loss convergence  
+
+## Tech Stack
+- Python  
+- scikit-learn  
+- XGBoost  
+
+## File
+- loan_risk_ensemble.ipynb contains preprocessing, training, and evaluation
