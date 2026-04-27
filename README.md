@@ -23,4 +23,4 @@ This project predicts the likelihood of loan default using ensemble learning tec
 - XGBoost  
 
 ## File
-- loan_risk_ensemble.ipynb contains preprocessing, training, and evaluation
+- Ensemble_Learning_Project.ipynb contains preprocessing, training, and evaluation
