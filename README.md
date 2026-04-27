@@ -13,8 +13,9 @@ This project predicts the likelihood of loan default using ensemble learning tec
 - Evaluated performance using accuracy and log loss  
 
 ## Results
-- Achieved ~86.5% accuracy  
-- Compared model performance using log loss convergence  
+- Both Random Forest (bagging) and XGBoost (boosting) achieved similar accuracy (~86.5%)  
+- Log loss analysis showed differences in convergence behavior between the two methods  
+- Boosting demonstrated more stable and faster convergence compared to bagging 
 
 ## Tech Stack
 - Python  
